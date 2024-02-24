@@ -33,6 +33,7 @@ h1 {
 .benjamin-container {
   min-height: 100vh;
   padding: 24px 0;
+  margin-bottom: 100px;
   position: relative;
 }
 
@@ -50,6 +51,7 @@ text {
 }
 
 footer {
+  background-color: inherit;
   display: flex;
   justify-content: center;
   position: fixed;
@@ -61,7 +63,6 @@ footer {
 }
 
 footer:hover {
-  background-color: #fff;
   opacity: 1;
 }
 
