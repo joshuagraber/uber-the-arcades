@@ -3,16 +3,6 @@ import { ReactNode } from 'react';
 const BenjaminText: React.FC<{
   children: ReactNode;
 }> = ({ children }) => {
-  // const textPathRef = useRef<SVGTextPathElement>(null);
-
-  // useEffect(() => {
-  //   if (textPathRef.current) {
-  //     textPathRef.current.innerHTML = text;
-  //   }
-  // }, [text]);
-
-  console.log('text re-rendering');
-
   return (
     <svg viewBox="0 0 899 899" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path

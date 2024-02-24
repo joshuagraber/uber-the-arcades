@@ -1,10 +1,16 @@
 export const BenjaminImage: React.FC<{ path: string }> = ({ path }) => {
-  console.log('image re-rendering');
   return (
-    <svg viewBox="0 0 899 899" xmlns="http://www.w3.org/2000/svg">
+    <svg
+      viewBox="0 0 899 899"
+      enableBackground="new 0 0 899 899"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="xMidYMid meet"
+      xmlSpace="preserve"
+      color-interpolation-filters="sRGB"
+    >
       <filter id="colorFilter">
-        <feFlood floodColor="#00e5ff" floodOpacity="0.7" />
-        <feBlend in="flood" in2="SourceGraphic" mode="lighten" />
+        <feFlood floodColor="#00e5ff" floodOpacity="0.7" result="flood" />
+        <feBlend in="flood" in2="SourceGraphic" mode="normal" />
       </filter>
 
       <defs>
