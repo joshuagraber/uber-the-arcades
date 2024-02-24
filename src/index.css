@@ -33,8 +33,10 @@ h1 {
 .benjamin-container {
   min-height: 100vh;
   padding: 24px 0;
-  margin-bottom: 100px;
   position: relative;
+  max-width: 1000px;
+  margin: 0 auto 100px;
+  width: 100%;
 }
 
 svg {
